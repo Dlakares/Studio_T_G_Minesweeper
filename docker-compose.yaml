@@ -12,3 +12,7 @@ services:
     image: redis:latest
     ports:
       - '6379:6379'
+  minesweeper:
+    image: dlakres/minesweeper_for_studio_tg:minesweeper_for_studio_tg
+    ports:
+      - '8080:8080'
